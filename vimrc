@@ -81,3 +81,5 @@ set ignorecase
 set smartcase
 " Write file with sudo.
 cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
+" Move to terminal Normal mode.
+tnoremap <ESC> <C-\><C-N>
