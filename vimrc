@@ -83,3 +83,5 @@ set smartcase
 cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 " Move to terminal Normal mode.
 tnoremap <ESC> <C-\><C-N>
+" The dot command in visual mode.
+vnoremap . :normal.<CR>
