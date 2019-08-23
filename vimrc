@@ -85,3 +85,6 @@ cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
 tnoremap <ESC> <C-\><C-N>
 " The dot command in visual mode.
 vnoremap . :normal.<CR>
+" Move visual selection.
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
