@@ -88,3 +88,5 @@ vnoremap . :normal.<CR>
 " Move visual selection.
 vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
+" Enable spell checking.
+:set spell spelllang=en_us
