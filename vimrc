@@ -43,7 +43,7 @@ augroup filetype_vim
 augroup END
 " }}}
 "
-let mapleader = "-"
+let mapleader = "\<Space>"
 " List format translations (https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/plugin/listtrans.vim).
 nnoremap <leader>l :call ListTrans_toggle_format()<cr>
 xnoremap <leader>l :call ListTrans_toggle_format('visual')<cr>
