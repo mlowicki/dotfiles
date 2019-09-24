@@ -59,6 +59,8 @@ nnoremap <leader>v :source $MYVIMRC<cr>
 " Search in current directory recursively.
 " Toggle undo-tree panel.
 nnoremap <leader>u :UndotreeToggle<cr>
+" Shortcut to remove highlighting.
+nnoremap <leader>n :nohlsearch<CR>
 set path=**
 " Persistent undo history.
 set undofile
