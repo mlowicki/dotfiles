@@ -94,3 +94,4 @@ vnoremap K :m '<-2<CR>gv=gv
 :set spell spelllang=en_us
 " Highlight trailing whitespace
 match ErrorMsg '\s\+$'
+set wildmenu " Display command line's tab complete options as a menu.
