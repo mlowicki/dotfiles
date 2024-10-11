@@ -95,3 +95,5 @@ vnoremap K :m '<-2<CR>gv=gv
 " Highlight trailing whitespace
 match ErrorMsg '\s\+$'
 set wildmenu " Display command line's tab complete options as a menu.
+set scrolloff=3
+set sidescrolloff=5
